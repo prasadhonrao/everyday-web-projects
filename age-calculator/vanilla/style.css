@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure the body and html take full height */
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+/* Style the form section */
+.form {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adds spacing between the label and input */
+  margin: 20px; /* Space between the form and the button */
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type='date'] {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Style the Calculate button */
+#calculate {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Hover effect for the button */
+#calculate:hover {
+  background-color: #45a049;
+}
+
+/* Style the result section */
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
