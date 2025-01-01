@@ -12,28 +12,28 @@ function calculateAge(dob) {
     return `You are newborn!`;
   }
 
-  let age = today.getFullYear() - birthDate.getFullYear();
+  let year = today.getFullYear() - birthDate.getFullYear(); // Renamed from age
   let month = today.getMonth() - birthDate.getMonth();
   let day = today.getDate() - birthDate.getDate();
 
   // Adjust if month or day is negative
   if (month < 0 || (month === 0 && day < 0)) {
-    age--;
-    month += 12;
+    year--; // Decrease year by 1 since the birthday hasn't happened yet this year
+    month += 12; // Add 12 months to make the month difference positive
   }
   if (day < 0) {
-    const lastMonth = new Date(today.getFullYear(), today.getMonth(), 0);
-    day += lastMonth.getDate();
-    month--;
+    const lastMonth = new Date(today.getFullYear(), today.getMonth(), 0); // Get the last day of the previous month
+    day += lastMonth.getDate(); // Add the number of days in the last month
+    month--; // Decrease the month by 1, as we borrowed days from the previous month
   }
 
   // Return age in a simplified format
-  if (age === 0 && month === 0 && day > 0) return `You are ${day} day${day > 1 ? 's' : ''} old`;
-  if (age === 0 && month > 0)
+  if (year === 0 && month === 0 && day > 0) return `You are ${day} day${day > 1 ? 's' : ''} old`;
+  if (year === 0 && month > 0)
     return `You are ${month} month${month > 1 ? 's' : ''} and ${day} day${day > 1 ? 's' : ''} old`;
-  if (age < 0) return `You are ${month} month${month > 1 ? 's' : ''} and ${day} day${day > 1 ? 's' : ''} old`;
+  if (year < 0) return `You are ${month} month${month > 1 ? 's' : ''} and ${day} day${day > 1 ? 's' : ''} old`;
 
-  return `You are ${age} year${age > 1 ? 's' : ''}, ${month} month${month > 1 ? 's' : ''} and ${day} day${
+  return `You are ${year} year${year > 1 ? 's' : ''}, ${month} month${month > 1 ? 's' : ''} and ${day} day${
     day > 1 ? 's' : ''
   } old`;
 }
