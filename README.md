@@ -18,9 +18,11 @@ Welcome to **Everyday Web Projects**, a curated collection of web development pr
 ## **How to Use This Repository**
 
 1. **Clone the Repo**: Start by cloning the repository to your local machine:
+
    ```bash
    git clone https://github.com/prasadhonrao/everyday-web-projects.git
    ```
+
 2. **Explore Projects**: Navigate to individual project folders to view the source code, assets, and documentation.
 3. **Run Locally**: Open the `index.html` file in your browser or use a local development server for JavaScript-heavy projects.
 4. **Learn and Build**: Use the accompanying `README.md` files in each project folder for guidance.
@@ -29,9 +31,9 @@ Welcome to **Everyday Web Projects**, a curated collection of web development pr
 
 ## **Projects Overview**
 
-| Project Name | Description                       | Tech Stack    |
-| ------------ | --------------------------------- | ------------- |
-| **TBA**      | A responsive landing page design. | HTML, CSS, JS |
+| Project Name       | Description                           | Tech Stack    | Links to Tech Stacks                  |
+| ------------------ | ------------------------------------- | ------------- | ------------------------------------- |
+| **Age Calculator** | Calculate age based on the birth date | HTML, CSS, JS | [Vanilla JS](age-calculator/vanilla/) |
 
 > _Note: More projects are being added regularly!_
 
