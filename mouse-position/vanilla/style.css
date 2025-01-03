@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightseagreen;
+  color: #fff;
+  font-family: cursive;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 20px;
+}
+
+.box p {
+  font-size: 25px;
+}
+
+/* Display box div on top of each other in smaller screen */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
