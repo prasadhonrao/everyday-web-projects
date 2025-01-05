@@ -13,7 +13,7 @@ This project is a simple **Tip Calculator** built using JavaScript, HTML, and CS
 
 ## Project Structure
 
-```
+```text
 everyday-web-projects
 └── tip-calculator
     ├── index.html
