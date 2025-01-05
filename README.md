@@ -33,6 +33,7 @@ Welcome to **Everyday Web Projects**, a curated collection of web development pr
 
 | Project Name          | Description                                          | Tech Stack    | Links to Tech Stacks                     |
 | --------------------- | ---------------------------------------------------- | ------------- | ---------------------------------------- |
+| **Project Template**  | Project template used for Vanilla JS                 | HTML, CSS, JS | [Vanilla JS](./vanilla/)                 |
 | **Age Calculator**    | Calculate age based on the birth date                | HTML, CSS, JS | [Vanilla JS](age-calculator/vanilla/)    |
 | **Tip Calculator**    | Calculate total bill based on bill amount and tip    | HTML, CSS, JS | [Vanilla JS](tip-calculator/vanilla/)    |
 | **Mouse Position**    | Display X and Y coordinates of the mouse dynamically | HTML, CSS, JS | [Vanilla JS](mouse-position/vanilla/)    |
