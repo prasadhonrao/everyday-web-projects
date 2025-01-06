@@ -29,20 +29,6 @@ Welcome to **Everyday Web Projects**, a curated collection of web development pr
 
 ---
 
-## **Projects Overview**
-
-| Project Name          | Description                                          | Tech Stack    | Links to Tech Stacks                     |
-| --------------------- | ---------------------------------------------------- | ------------- | ---------------------------------------- |
-| **Project Template**  | Project template used for Vanilla JS                 | HTML, CSS, JS | [Vanilla JS](./vanilla/)                 |
-| **Age Calculator**    | Calculate age based on the birth date                | HTML, CSS, JS | [Vanilla JS](age-calculator/vanilla/)    |
-| **Tip Calculator**    | Calculate total bill based on bill amount and tip    | HTML, CSS, JS | [Vanilla JS](tip-calculator/vanilla/)    |
-| **Mouse Position**    | Display X and Y coordinates of the mouse dynamically | HTML, CSS, JS | [Vanilla JS](mouse-position/vanilla/)    |
-| **Dark Mode Toggler** | Display dark mode toggler switch                     | HTML, CSS, JS | [Vanilla JS](dark-mode-toggler/vanilla/) |
-
-> _Note: More projects are being added regularly!_
-
----
-
 ## **Who Is This For?**
 
 - **Beginners**: Learn web development fundamentals with hands-on projects.
